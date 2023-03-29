@@ -1,0 +1,28 @@
+:root {
+    --primary-color: rgb(79, 8, 245);
+    --secondary-color: rgb(253, 8, 8);
+
+}
+
+div {
+    height: 250px;
+    width: 250px;
+}
+
+#div1 {
+    /* background: var(--primary-colr,green); [faulback color */
+    /* for inernet explor browser */
+background: green;
+    background: var(--primary-color, green);
+    position: absolute;
+    z-index: 1;
+}
+
+#div2 {
+    background: red;
+    background: var(--secondary-color);
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: -2;
+}
