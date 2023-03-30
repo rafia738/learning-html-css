@@ -26,3 +26,8 @@ background: green;
     top: 150px;
     z-index: -2;
 }
+@media screen and (max-width:600px){
+    :root {
+        --primary-color: rgb(10, 7, 17);
+        --secondary-color: rgba(16, 253, 8, 0.781);
+}
